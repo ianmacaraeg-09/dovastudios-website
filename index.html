@@ -1904,7 +1904,7 @@ var PALETTES = {"echo": ["#d92a72", "#ef5f7e", "#f4836f", "#f6a68a", "#f2c4ac"],
    never a second, driftable copy. See the Echo Live Deployment Plan for
    the endpoint swap this is meant to take later (Phase 1 -> Phase 2). */
 (function(){
-  var ECHO_ENDPOINT = 'http://127.0.0.1:8821/chat'; // DOVA's own Echo instance (dovastudios-ai-agents fork) — local dev only until the Cloudflare Tunnel/domain is live
+  var ECHO_ENDPOINT = 'https://echo.dova.dpdns.org/chat'; // DOVA's own Echo instance (dovastudios-ai-agents fork), public via a persistent Cloudflare Tunnel
   var ECHO_PALETTE = PALETTES.echo;
 
   var _grain = null;
